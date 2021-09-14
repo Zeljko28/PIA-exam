@@ -1,0 +1,1115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* Navbar css */
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navigation-bar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+    
+}
+
+ nav{
+
+    flex: 1;
+    text-align: right;
+}
+
+ nav ul{
+
+    display: inline-block;
+    list-style-type: none;
+}
+
+ nav ul li{
+
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ a{
+
+    text-decoration: none;
+    color: #555;
+}
+
+nav ul li i{
+    margin-right: 5px;
+}
+
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+.cont {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    box-shadow: 0 20px 20px -20px rgba(0, 0, 0, 0.2);
+
+    
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    
+    
+}
+
+.rownot{
+    display: flex;
+    min-height: 500px;
+}
+
+
+/* Footer css */
+
+
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer h3{
+
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.footer hr{
+    border:none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.footer .copyright{
+    text-align: center;
+}
+
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+
+
+/* Main page css */
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img{
+
+    max-width: 100%;
+    padding: 50px 0;
+
+}
+
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+
+.col-2 #search{
+    border-radius: 30px;
+    width: 400px;
+    outline: none;
+    border: 2px solid rgb(153, 233, 160);
+    height: 40px;
+    margin-top: 30px;
+    padding: 0 20px;
+    font-size: 17px;
+
+}
+
+.btn{
+    display: inline-block;
+    background: rgb(4, 170, 109);
+    color: #fff;
+    height: 40px;
+    width: 120px;
+    margin: 10px 0;
+    border-radius: 30px;
+    text-decoration: none;
+
+
+    border: none;
+    font-size: 15.5px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    margin-left: -30px;
+    cursor: pointer;
+    margin-bottom: -5px;
+}
+
+.btn:hover{
+    transition: 0.3s;
+    background: rgb(4, 110, 109);
+}
+
+
+.header{
+    background: radial-gradient(#fff, rgb(153, 233, 160));
+}
+
+.header .row {
+    margin-top: 20px;
+}
+
+.categories{
+    margin: 70px 0;
+}
+
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.col-3 img{
+    width: 100%;
+    
+}
+
+.col-3 .image-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.col-3 .image-overlay > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.col-3 .image-overlay:hover > *{
+    transform: translateY(0);
+}
+
+.col-3 .image-overlay:hover{
+    opacity: 1;
+    
+}
+
+.col-3 .image-overlay .image-title{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.col-3:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.small-container{
+    max-width: 1100px;
+    margin: auto;
+    padding-right: 25px;
+    padding-left: 25px;
+
+    
+}
+
+.col-4 {
+    flex-basis: 22%;
+    padding: 10px;
+    min-width:200px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    
+    margin-bottom: 50px;
+
+    margin-top: 50px;
+
+    height: 380px;
+    
+
+
+}
+
+
+.col-4 img {
+    width: 100%;
+
+}
+
+.col-4:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.title{
+    text-align: center;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+    margin: 0 auto 80px;
+}
+
+.title::after{
+
+    content: "";
+    background: rgb(4, 170, 109);
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+select{
+    border: 1px solid rgb(4, 170, 109);
+    padding: 5px;
+}
+
+select:focus{
+    outline: none;
+}
+
+
+.page-btn{
+    margin: 0 auto 80px;
+}
+
+.page-btn span{
+    display: inline-block;
+    border: 1px solid rgb(4, 170, 109);
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 40px;
+}
+
+.page-btn span:hover{
+    background: rgb(4, 170, 109);
+    color: white;
+}
+
+
+.one-product{
+    margin-top: 80px;
+
+}
+
+.one-product .col-2 img {
+    padding: 0;
+    
+}
+
+.one-product .full{
+    
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.one-product .rating2{
+    margin-top: 10px;
+    
+}
+
+.one-product .rate{
+    margin-top: 20px;
+}
+
+.one-product .rating2 i{
+    color: orangered;
+    font-size: 25px;
+}
+
+
+.one-product .col-2{
+    padding: 20px;
+}
+
+.one-product h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.one-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid rgb(4, 170, 109);
+}
+
+.one-product input:focus{
+    outline: none;
+}
+
+.one-product p{
+    font-weight: lighter;
+    color: #555;
+}
+
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+    
+}
+
+.small-img-col img{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.cart{
+    margin: 80px auto;
+
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.product-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-info img{
+    width: 100px;
+    height: 100px;
+}
+
+th{
+    text-align: left;
+    padding: 5px;
+    color: white;
+    background: rgb(4, 170, 109);
+}
+
+
+td{
+    padding: 10px 5px;
+    
+}
+
+tr{
+    border-bottom: 1px solid rgb(4, 170, 109);
+}
+
+td img{
+    margin-right: 10px;
+}
+
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+td a{
+    color: rgb(4, 170, 109);
+    font-size: 12px;
+    
+}
+
+.btn2{
+    display: inline-block;
+    background: rgb(4, 170, 109);
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+
+
+.btn2:hover{
+    transition: 0.3s;
+    background: rgb(4, 110, 109);
+}
+
+.total-cost{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-cost table{
+    border-top: 3px solid rgb(4, 170, 109);
+    width: 100%;
+    max-width: 350px;
+
+}
+
+td:last-child{
+    text-align: right;
+}
+
+th:last-child{
+    text-align: right;
+}
+
+
+/* Add product css */
+
+.add input{
+    width: 85%;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    
+    border: 1px solid rgb(4, 170, 109);
+    margin-bottom: 20px;
+}
+
+.add input:focus{
+    outline: none;
+}
+
+.add select{
+    border: 1px solid rgb(4, 170, 109);
+    padding: 5px;
+    width: 85%;
+    height: 40px;
+    font-size: 20px;
+
+    margin-bottom: 20px;
+}
+
+.add select:focus{
+    outline: none;
+}
+
+
+.add button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+    width: 85%;
+    height: 40px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+
+    margin-left: 1px;
+}
+
+.add h2{
+
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+}
+
+.add p{
+    float: left;
+    margin-left: 35px;
+    margin-bottom: 5px;
+}
+.add{
+    
+    margin: 50px auto;
+    width: 450px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+
+    text-align: center;
+}
+
+#file {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+  }
+
+
+
+.add label{
+    
+    position: relative;
+    border: 1px solid rgb(4, 170, 109);
+    height: 40px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 7.5%;
+    margin-top: 10px;
+    
+}
+
+
+/* manage accounts */
+
+.manage{
+    margin: 80px auto;
+
+}
+
+.manage table{
+    width: 100%;
+    
+
+    border-collapse:separate; 
+    border-spacing:0 40px;
+}
+
+
+.manage .info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.manage .info img{
+    width: 100px;
+    height: 100px;
+}
+
+.manage th{
+    text-align: left;
+    padding: 5px;
+    color: white;
+    background: rgb(4, 170, 109);
+}
+
+
+.manage td{
+    padding: 10px 5px;
+    border-top: 1px solid rgb(4, 170, 109);
+}
+
+.manage tr{
+    border-bottom: 1px solid rgb(4, 170, 109);
+}
+
+.manage td img{
+    margin-right: 10px;
+}
+
+.manage td:last-child{
+    text-align: left;
+    border-right: none;
+    
+}
+
+.manage th:last-child{
+    text-align: left;
+}
+
+
+
+.manage td a{
+    color: rgb(4, 170, 109);
+    font-size: 12px;
+}
+
+.manage #delete-user{
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 12pt;
+    padding: 5px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(4, 170, 109);
+    width: 170px;
+    
+    text-align: center;
+    
+}
+
+.manage #delete-user:hover{
+    background-color: rgb(4, 110, 109);
+    color: #fff;
+}
+
+.manage #change-user-info{
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 12pt;
+    padding: 5px;
+    background-color: rgb(4, 170, 109);
+    border: 1px solid rgb(4, 170, 109);
+    
+    text-align: center;
+    width: 170px;
+    
+    color: white;
+}
+
+.manage #change-user-info:hover{
+    background-color: rgb(4, 110, 109);
+    color: #fff;
+}
+
+/* account */
+
+
+.information input{
+    width: 85%;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    
+    border: 1px solid rgb(4, 170, 109);
+    margin-bottom: 20px;
+
+}
+
+.information input:focus{
+    outline: none;
+}
+
+.information select{
+    border: 1px solid rgb(4, 170, 109);
+    padding: 5px;
+    width: 85%;
+    height: 40px;
+    font-size: 20px;
+
+    margin-bottom: 20px;
+}
+
+.information select:focus{
+    outline: none;
+}
+
+
+.information button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+    width: 85%;
+    height: 40px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    border: 1px solid rgb(4, 170, 109);
+    color: #fff;
+    background-color: rgb(4, 170, 109);
+    margin-bottom: 15px;
+}
+
+.information button:hover{
+    background-color: rgb(4, 110, 109);
+}
+
+.information h2{
+
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+}
+
+.information p{
+    float: left;
+    margin-left: 35px;
+    margin-bottom: 5px;
+}
+.information{
+    
+    margin: 50px auto;
+    width: 450px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+
+    text-align: center;
+}
+
+.information .chkbox{
+    display: flex;
+    width: 85%;
+    
+    height: 20px;
+    margin-left: 7.5%;
+    margin-top: -10px;
+    align-items: left;
+    
+}
+
+.information .chkbox #input{
+    width: 4%;
+    margin-top: -10px;
+    background-color: red;
+    margin-right: -25px;
+}
+
+.information .chkbox p{
+    margin-top: -2px;
+}
+
+
+
+/* manage ads */
+
+.manage-ads{
+    margin: 80px auto;
+
+}
+
+.manage-ads table{
+    width: 100%;
+    
+
+    border-collapse:separate; 
+    border-spacing:0 40px;
+}
+
+
+.manage-ads .info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.manage-ads .info img{
+    width: 100px;
+    height: 100px;
+}
+
+.manage-ads th{
+    text-align: left;
+    padding: 5px;
+    color: white;
+    background: rgb(4, 170, 109);
+}
+
+
+.manage-ads h2{
+    text-align: center;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+    margin: 0 auto 30px;
+}
+
+.manage-ads h2::after{
+
+    content: "";
+    background: rgb(4, 170, 109);
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.manage-ads td{
+    padding: 10px 5px;
+    border-top: 1px solid rgb(4, 170, 109);
+}
+
+.manage-ads tr{
+    border-bottom: 1px solid rgb(4, 170, 109);
+}
+
+.manage-ads td img{
+    margin-right: 10px;
+}
+
+.manage-ads td:last-child{
+    text-align: left;
+    border-right: none;
+    
+}
+
+.manage-ads th:last-child{
+    text-align: left;
+}
+
+
+
+.manage-ads td a{
+    color: rgb(4, 170, 109);
+    font-size: 12px;
+}
+
+.manage-ads #delete-ad{
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 12pt;
+    padding: 5px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(4, 170, 109);
+    width: 170px;
+    
+    text-align: center;
+    
+}
+
+.manage-ads #delete-ad:hover{
+    background-color: rgb(4, 110, 109);
+    color: #fff;
+}
+
+.manage-ads #change-ad-info{
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 12pt;
+    padding: 5px;
+    background-color: rgb(4, 170, 109);
+    border: 1px solid rgb(4, 170, 109);
+    
+    text-align: center;
+    width: 170px;
+    
+    color: white;
+}
+
+.manage-ads #change-ad-info:hover{
+    background-color: rgb(4, 110, 109);
+    color: #fff;
+}
+
+
+/* Change product */
+
+
+.product-information input{
+    width: 85%;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    
+    border: 1px solid rgb(4, 170, 109);
+    margin-bottom: 20px;
+
+}
+
+.product-information input:focus{
+    outline: none;
+}
+
+.product-information select{
+    border: 1px solid rgb(4, 170, 109);
+    padding: 5px;
+    width: 85%;
+    height: 40px;
+    font-size: 20px;
+
+    margin-bottom: 20px;
+}
+
+.product-information select:focus{
+    outline: none;
+}
+
+
+.product-information button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+    width: 85%;
+    height: 40px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    border: 1px solid rgb(4, 170, 109);
+    color: #fff;
+    background-color: rgb(4, 170, 109);
+    margin-bottom: 15px;
+}
+
+.product-information button:hover{
+    background-color: rgb(4, 110, 109);
+}
+
+.product-information h2{
+
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+}
+
+.product-information p{
+    float: left;
+    margin-left: 35px;
+    margin-bottom: 5px;
+}
+.product-information{
+    
+    margin: 50px auto;
+    width: 450px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+
+    text-align: center;
+}
+
+
+
+/* search */ 
+
+
+.search{
+    margin-top: 50px;
+}
+
+.search h2{
+    margin-bottom: 30px;
+    
+}
+
+
+
+@media only screen and (max-width: 800px){
+    
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: rgb(4, 170, 109);
+        width: 100%;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+        
+    }
+
+    .btn{
+        margin-left: 0;
+    }
+
+    .col-2 #search{
+        width: 300px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    .row{
+        text-align: center;
+    }
+
+
+    .one-product .row{
+        text-align: left;
+    }
+
+    .one-product .col-2{
+        padding: 20px 0;
+    }
+
+    .one-product h1{
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .product-info p{
+        display: none;
+    }
+
+    .manage #delete-user{
+        width: 140px;
+        
+    }
+
+    .manage #change-user-info{
+        width: 140px;
+        
+    }
+
+    .manage-ads #delete-ad{
+        width: 140px;
+        
+    }
+
+    .manage-ads #change-ad-info{
+        width: 140px;
+        
+    }
+}

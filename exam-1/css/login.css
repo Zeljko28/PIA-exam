@@ -1,0 +1,80 @@
+
+body{
+    margin: 0;
+    padding: 0;
+   
+    background-color: #efefef;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.login { 
+    -moz-box-shadow: 0 0 20px grey;
+    -webkit-box-shadow: 0 0 20px grey;
+    box-shadow: 0 0 20px grey;
+    margin-top: 100px;
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+    
+}
+
+
+.login .col-md-6{
+    padding: 20px 90px;
+}
+
+.login .col-md-6 input{
+    height: 40px;
+    font-size: 14pt;
+}
+
+.login h2{
+
+    font-weight: bold;
+}
+
+.login .col-md-6 label{
+    margin-top: 20px;
+    float: left;
+}
+
+.login .col-md-6 button{
+    width: 100%;
+
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+    padding: 7px;
+    margin-top: 25px;
+    background-color: white;
+    display: block;
+    color: rgb(4, 170, 109);
+    outline-style: none;
+    outline: none;
+    border:2px solid rgb(4, 170, 109);
+    border-radius: 3px;
+}
+
+.login .col-md-6 button:hover{
+    background-color: rgb(4, 170, 109);
+    color: white;
+}
+
+.login .col-md-6 p{
+    float: left; 
+}
+.login .col-md-6 h4{
+    margin-top: 40px;
+    font-weight: bold;
+    
+}
+
+.login .col-md-6 a{
+    cursor: pointer;    
+}
+
+.login .right{
+    text-align: left;
+}
+
